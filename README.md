@@ -7,15 +7,31 @@ source .env/bin/activate
 python3 -r requirements.txt
 ```
 
-Current arsenal of tools include:
-- Addition
-- Multiplication
-- A Comedian
+Put your OpenAI key in env.env and source it:
+```
+source env.env
+```
+
+Current arsenal of tools are basic functions in `tools.py`.
+
+Example of agents:
+
+### French comedian:
+- Creates a joke in English
+- Translates to French
+```
+python3 french_comedian.py
+```
+
+### Leetcode solver: 
+- Attempt a solution
+- Check if test cases are passed
+- Repeat
+
+```
+> leetcode_solver.ipynb
+```
 
 To add:
-- Leetcode solver
-
-An agent that tells funny joke is in place currently:
-```
-OPENAI_API_KEY='<YOUR-KEY-HERE>' python3 main.py
-```
+- Email sender
+- Web finder
