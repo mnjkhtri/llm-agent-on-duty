@@ -4,7 +4,7 @@ Usual stuff:
 ```
 python3 -venv .env
 source .env/bin/activate
-python3 -r requirements.txt
+pip3 -r requirements.txt
 ```
 
 Put your OpenAI key in env.env and source it:
