@@ -1,3 +1,8 @@
+from dotenv import load_dotenv
+import os
+
+load_dotenv('env.env')
+
 # Agents and Tasks:
 from core.agents import Agent, Task
 
